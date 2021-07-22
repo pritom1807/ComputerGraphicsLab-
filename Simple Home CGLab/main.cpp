@@ -71,7 +71,7 @@ void display(void)
 
     //up home shape
     glBegin(GL_TRIANGLES);
-    glColor3f (0.2f, 0.1f, 0.0f);
+    glColor3f (0.5f, 0.1f, 0.0f);
     glVertex3f(0.9, 0.5, 0.0);
     glColor3f (0.1f, 0.0, .0);
     glVertex3f(0.1, 0.5, 0.0);
@@ -83,7 +83,7 @@ void display(void)
 }
 void init (void)
 {
-    glClearColor (.7,.6,.5, 0.0); //select clearing (background) color
+    glClearColor (.8,.6,.5, 0.0); //select clearing (background) color
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glOrtho(0.0, 1.0, 0.0, 1.0, -10.0, 10.0);
